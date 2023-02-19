@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    max-width: 1540px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    height: 13vh;
+}
+
+.heading img {
+    scale: 0.7;
+}
+
+.heading ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.heading ul li {
+    list-style: none;
+    cursor: pointer;
+    
+}
+
+.heading ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #20bc7e;
+}
+
+.heading ul li a:hover {
+    background-color: #20bc7e;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 22px;
+    width: fit-content;
+}
+
+
+.about {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30vh;
+    padding: 5px 30vw;
+}
+
+.about h2 {
+    color: #20bc7e;
+    font-size: 25px;
+    font-weight:700;
+    padding: 15px;
+}
+
+.about p {
+    color: #454747;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.data div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 80px;
+    /* box-sizing: border-box; */
+    margin: 30px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px  black;
+}
+
+.data div h3 {
+    color: #20bc7e;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.data div h4 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:525px) {
+    body {
+        overflow: hidden;
+    }
+
+    .heading {
+        flex-direction: column;
+        padding: 0px 3vw;
+        height: 8vh;
+    }
+
+    .heading ul {
+        gap: 8vw;
+    }
+
+    .heading ul li a {
+        font-size: 14px;
+    }
+
+    .heading ul li a:hover {
+        font-size: 15px;
+    }
+
+    .about {
+        margin-top: 15vh;
+        padding: 5px 20vw;
+    }
+    
+    .about h2 {
+        padding: 10px;
+    }
+    
+    .data div {
+        width: 100px;
+        height: 60px;
+        margin: 10px;
+    }
+
+}    

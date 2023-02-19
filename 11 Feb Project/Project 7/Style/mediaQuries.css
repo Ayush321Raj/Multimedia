@@ -1,0 +1,87 @@
+@media screen and (max-width:525px) {
+    body {
+        overflow: hidden;
+    }
+
+    .heading {
+        flex-direction: column;
+        padding: 0px 3vw;
+        height: 8vh;
+    }
+
+    .heading ul {
+        gap: 8vw;
+    }
+
+    .heading ul li a {
+        font-size: 14px;
+    }
+
+    .heading ul li a:hover {
+        font-size: 15px;
+    }
+
+    .main-section {
+        flex-direction: column;
+        width: 95%;
+        height: 55vh;
+    }
+
+    .left-section {
+        padding: 0 10px;
+    }
+
+    .left-section h1 {
+        font-size: 40px;
+    }
+
+    .left-section p {
+        font-size: 17px;
+        margin: 10px 0;
+    }
+
+    img[alt="topAngle"] {
+        width: 20px;
+    }
+
+    .left-section button {
+        padding: 10px 30px;
+    }
+
+    img[alt="bottomAngle"] {
+        width: 20px;
+        right: 25px;
+    }
+
+    img[alt="stethoscope"] {
+        width: 90%;
+        top: -30px;
+        right: -20px;
+    }    
+
+    img[alt="mouse"] {
+        right: -15px;
+        bottom: 0;
+        width: 30px;
+    }
+
+    .green {
+        width: 65%;
+        right: 50px;
+        bottom: 100px;
+    }
+
+    .yellow {
+        width: 60%;
+        right: 60px;
+        bottom: 100px;
+    }
+
+    .doctor {
+        height: 35%;
+        /* position: relative; */
+        left: 20%;
+        top: 52%;
+        /* bottom: -200px; */
+    }
+}

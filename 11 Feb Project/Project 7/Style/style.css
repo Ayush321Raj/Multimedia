@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    max-width: 1540px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    height: 13vh;
+}
+
+.heading img {
+    scale: 0.7;
+}
+
+.heading ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.heading ul li {
+    list-style: none;
+    cursor: pointer;
+    
+}
+
+.heading ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #20bc7e;
+}
+
+.heading ul li a:hover {
+    background-color: #20bc7e;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 22px;
+    width: fit-content;
+}
+
+
+.main-section {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+    height: 90vh;
+}
+
+.left-section {
+    position: relative;
+    padding: 0 50px;
+}
+
+img[alt="topAngle"] {
+    width: 25px;
+}
+
+.left-section h1 {
+    font-size: 70px;
+}
+
+.left-section p {
+    color: #7c7c7c;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.left-section button {
+    color: white;
+    padding: 15px 50px;
+    background-color: #20bc7e;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+.left-section button:hover {
+    background-color: #33c087;
+    color: #7c7c7c;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
+}
+
+img[alt="bottomAngle"] {
+    font-size: 25px;
+    position: absolute;
+    right: 25px;
+}
+
+img[alt="stethoscope"] {
+    position: absolute;
+    width: 90%;
+    top: -90px;
+    right: -30px;
+    z-index: -1;
+}
+
+img[alt="mouse"] {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+}
+
+
+.green {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    /* z-index: -2; */
+}
+
+.yellow {
+    width: 27%;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    /* z-index: -1; */
+}
+
+.doctor {
+    height: 90%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
